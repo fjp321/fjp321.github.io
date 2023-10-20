@@ -58,7 +58,7 @@ body {
   text-align: center;
 }
 
-#contact-box > a:hover {
+.contact-icon:hover {
   color: #dbbc7f;
 }
 
