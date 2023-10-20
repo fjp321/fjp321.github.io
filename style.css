@@ -38,14 +38,20 @@ body {
 
 /* Contact */
 
-#contact-box {
+.contact-box {
 	display: flex;
+	flex-wrap: wrap;
 	align-content: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
-#contact-box > a {
-  padding: 20px;
+.contact-element {
+	width: 33%;
+	text-align: center;
+}
+
+.contact-icon {
+  padding: 10px;
   color: #d3c6aa;
   text-decoration: none;
   font-size: 64px;
